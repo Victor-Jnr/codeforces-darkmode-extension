@@ -32,15 +32,21 @@ Make sure you have these files:
 
 2. **Enable Developer Mode**
    - Toggle "Developer mode" in the top right corner
+<img width="800" alt="Screenshot 2026-01-27 015115" src="https://github.com/user-attachments/assets/0751c91f-9bcc-4cc1-8068-3cfc14c29bbe" />
+
 
 3. **Load Unpacked Extension**
    - Click "Load unpacked"
+<img width="800" alt="Screenshot 2026-01-27 015338" src="https://github.com/user-attachments/assets/1b232a3b-3dd9-45f8-9f45-950c36e1d6da" />
+
+
    - Navigate to the `codeforces-darkmode-extension` folder
    - Click "Select Folder"
 
 4. **Done!**
    - You should see the extension in your Chrome toolbar
    - Visit https://codeforces.com to test it
+<img width="800" alt="Screenshot 2026-01-27 015527" src="https://github.com/user-attachments/assets/327ca4c7-1f71-4e72-ba90-f318c7e40ea1" />
 
 ## How to Use
 
