@@ -101,6 +101,14 @@ body {
 2. Make sure permissions are granted
 3. Reload the extension (click the reload icon)
 
+### DarkMode Editor Incorrectly Colored?
+I am Working on that problem, right now a workaround is to disable the editor to see the text in darkmode.
+
+To do that click on the checkbox "Switch Off Editor" as shown in screenshot below:
+
+<img width="300" alt="Screenshot 2026-01-27 020954" src="https://github.com/user-attachments/assets/aa55ffca-30b7-4302-9dcd-95a1db564107" /> <img width="300" alt="Screenshot 2026-01-27 021023" src="https://github.com/user-attachments/assets/b236a0cc-5f6c-4e77-8ea4-ddda6aeefee4" />
+
+
 ### Colors look wrong?
 1. Go to `chrome://extensions/`
 2. Click the reload icon on the Codeforces Dark Mode extension
