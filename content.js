@@ -6,15 +6,17 @@
  * This script injects dark mode CSS into Codeforces.com pages
  */
 
-// Check if dark mode is enabled in storage
+console.log('Content script loaded for Codeforces');
+
 chrome.storage.sync.get({ darkModeEnabled: true }, (items) => {
+  console.log('Initial dark mode state:', items.darkModeEnabled);
   if (items.darkModeEnabled) {
     injectDarkMode();
   }
 });
 
-// Listen for messages from popup to toggle dark mode
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+  console.log('Message received:', request);
   if (request.action === "toggleDarkMode") {
     if (request.enabled) {
       injectDarkMode();
@@ -25,8 +27,18 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 });
 
+chrome.storage.onChanged.addListener((changes, areaName) => {
+  if (areaName === 'sync' && changes.darkModeEnabled) {
+    console.log('Storage changed, dark mode enabled:', changes.darkModeEnabled.newValue);
+    if (changes.darkModeEnabled.newValue) {
+      injectDarkMode();
+    } else {
+      removeDarkMode();
+    }
+  }
+});
+
 function injectDarkMode() {
-  // Check if dark mode is already injected
   if (document.getElementById("codeforces-dark-mode-style")) {
     return;
   }

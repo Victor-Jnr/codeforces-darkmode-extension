@@ -3,7 +3,7 @@
   "name": "Codeforces Dark Mode",
   "version": "1.0",
   "description": "Automatically applies dark mode to Codeforces website",
-  "permissions": ["activeTab", "scripting", "storage"],
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
   "host_permissions": ["https://codeforces.com/*"],
   "content_scripts": [
     {

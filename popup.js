@@ -18,18 +18,29 @@ document.addEventListener('DOMContentLoaded', () => {
     chrome.storage.sync.get({ darkModeEnabled: true }, (items) => {
       const newState = !items.darkModeEnabled;
 
+      chrome.storage.sync.set({ darkModeEnabled: newState }, () => {
+        console.log('Storage updated:', newState);
+      });
+
       chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         if (tabs[0]) {
+          console.log('Sending message to tab:', tabs[0].id);
           chrome.tabs.sendMessage(tabs[0].id, {
             action: 'toggleDarkMode',
             enabled: newState
           }, (response) => {
-            if (response && response.success) {
+            if (chrome.runtime.lastError) {
+              console.log('Could not send message (tab might not have content script):', chrome.runtime.lastError.message);
+              updateToggle(newState);
+            } else if (response && response.success) {
+              console.log('Content script received message');
               updateToggle(newState);
             }
           });
         }
       });
+
+      updateToggle(newState);
     });
   });
 
