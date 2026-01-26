@@ -13,6 +13,8 @@ A simple Chrome extension that automatically applies dark mode to Codeforces.com
 
 ### Step 1: Prepare the Extension Files
 The extension is located in: `codeforces-darkmode-extension/`
+Download from this page https://github.com/Victor-Jnr/codeforces-darkmode-extension/ as zip
+Extract all files.
 
 Make sure you have these files:
 - `manifest.json`
@@ -34,7 +36,7 @@ Make sure you have these files:
    - Navigate to the `codeforces-darkmode-extension` folder
    - Click "Select Folder"
 
-4. **Done!** 🎉
+4. **Done!**
    - You should see the extension in your Chrome toolbar
    - Visit https://codeforces.com to test it
 
@@ -111,13 +113,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 **Copyright (c) 2026 Codeforces Dark Mode Contributors**
 
 ### License Summary
-- ✅ You **can** use this code freely
-- ✅ You **can** modify and distribute it
-- ✅ You **can** use it commercially
-- ✅ You **can** make private changes
-- ⚠️ You **must** keep the license notice
-- ⚠️ You **must** credit the original author
-- ❌ No warranty or liability
+- You **can** use this code freely
+- You **can** modify and distribute it
+- You **can** use it commercially
+- You **can** make private changes
+- You **must** keep the license notice
+- You **must** credit the original author
+- No warranty or liability
 
 ## Reuse & Attribution
 
@@ -129,20 +131,20 @@ If you fork, modify, or redistribute this extension:
    ```
    Based on Codeforces Dark Mode
    Copyright (c) 2026 Codeforces Dark Mode Contributors
-   Original: https://github.com/[your-username]/codeforces-darkmode-extension
+   Original: https://github.com/Victor-Jnr/codeforces-darkmode-extension/
    ```
 4. **Share improvements** - Consider contributing back via pull requests!
 
 ### Examples of Proper Attribution
 
-✅ **Good** - Fork with clear attribution:
+ **Good** - Fork with clear attribution:
 ```
 This extension is a fork of Codeforces Dark Mode by [Original Author]
 Licensed under MIT - See LICENSE file
 Changes: Added support for custom color themes
 ```
 
-✅ **Good** - Derivative work with credits:
+ **Good** - Derivative work with credits:
 ```markdown
 ## Credits
 Based on Codeforces Dark Mode by [Original Author]
@@ -167,9 +169,9 @@ All contributions are assumed to be under the MIT License.
 ## Dependencies
 
 This extension uses **zero external dependencies**:
-- ✅ No npm packages
-- ✅ No libraries
-- ✅ Pure Chrome Extension APIs
+- No npm packages
+- No libraries
+- Pure Chrome Extension APIs
 
 It only uses standard Chrome APIs:
 - `chrome.storage.sync` - For saving preferences
@@ -178,9 +180,9 @@ It only uses standard Chrome APIs:
 
 ## Support & Issues
 
-- 🐛 **Found a bug?** [Open an issue](https://github.com/your-username/codeforces-darkmode-extension/issues)
-- 💡 **Have a suggestion?** Create a discussion or pull request
-- 📧 **Contact**: Include your email if publishing to GitHub
+- **Found a bug?** [Open an issue](https://github.com/Victor-Jnr/codeforces-darkmode-extension/issues)
+- **Have a suggestion?** Create a discussion or pull request
+- **Contact**: ujjwalvictor2005@gmail.com
 
 ---
 
