@@ -125,6 +125,73 @@ a:visited {
     border-color: #444 !important;
 }
 
+/* Test example lines */
+.test-example-line {
+    color: #ffffff !important;
+    background-color: #2d2d2d !important;
+}
+
+.test-example-line-odd {
+    background-color: #252525 !important;
+    color: #ffffff !important;
+}
+
+.test-example-line-even {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+/* Problems section and filters */
+.rowCount {
+    color: #ffffff !important;
+}
+
+.filter {
+    color: #ffffff !important;
+}
+
+.filter input {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+    border-color: #555 !important;
+}
+
+/* ACE Editor styling */
+.ace_content {
+    background-color: #2d2d2d !important;
+}
+
+.ace_editor {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.ace_text-layer {
+    color: #ffffff !important;
+}
+
+.ace_line {
+    color: #ffffff !important;
+}
+
+.ace_active-line {
+    background-color: #3d3d3d !important;
+}
+
+.ace_cursor {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.ace_gutter {
+    background-color: #252525 !important;
+    color: #888 !important;
+}
+
+.ace_gutter-cell {
+    color: #888 !important;
+}
+
 .comment-table {
     border-color: #444 !important;
     color: #ffffff !important;
