@@ -1,0 +1,36 @@
+NOTICE
+
+Codeforces Dark Mode Extension
+Copyright (c) 2026 Codeforces Dark Mode Contributors
+
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+---
+
+THIRD-PARTY CONTENT NOTICE
+==========================
+
+This extension does not use any third-party libraries or frameworks.
+
+All code is original work created for this extension.
+
+The extension uses only:
+- Standard Chrome Extension APIs (chrome.*)
+- Native JavaScript (no frameworks)
+- CSS for styling (original CSS)
+
+No third-party copyrights or licenses are included in this project.
+
+---
+
+CODEFORCES NOTICE
+=================
+
+This extension is an unofficial third-party tool for Codeforces.com
+It is not affiliated with, endorsed by, or associated with Codeforces.
+
+Codeforces is a registered trademark of Codeforces.
+This extension is provided as-is for personal use.
+
+Visit Codeforces: https://codeforces.com
