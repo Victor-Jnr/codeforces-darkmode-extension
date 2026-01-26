@@ -13,7 +13,9 @@ A simple Chrome extension that automatically applies dark mode to Codeforces.com
 
 ### Step 1: Prepare the Extension Files
 The extension is located in: `codeforces-darkmode-extension/`
+
 Download from this page https://github.com/Victor-Jnr/codeforces-darkmode-extension/ as zip
+
 Extract all files.
 
 Make sure you have these files:
