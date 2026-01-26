@@ -195,6 +195,5 @@ It only uses standard Chrome APIs:
 - **Have a suggestion?** Create a discussion or pull request
 - **Contact**: ujjwalvictor2005@gmail.com
 
----
 
 **Enjoy coding on Codeforces with dark mode! 🌙**
