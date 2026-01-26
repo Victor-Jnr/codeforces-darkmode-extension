@@ -1,6 +1,9 @@
 # Codeforces Dark Mode - Chrome Extension
 
 A simple Chrome extension that automatically applies dark mode to Codeforces.com
+<img width="500" alt="Screenshot 2026-01-27 015908" src="https://github.com/user-attachments/assets/fefd08ff-3c86-4a2b-bf1f-a54f2a76905b" />     <img width="500" alt="Screenshot 2026-01-27 015858" src="https://github.com/user-attachments/assets/3c8d4bf7-9467-4f26-8b5b-e681fdf6e549" />
+
+
 
 ## Features
 
