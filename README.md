@@ -158,7 +158,7 @@ If you fork, modify, or redistribute this extension:
 
  **Good** - Fork with clear attribution:
 ```
-This extension is a fork of Codeforces Dark Mode by [Original Author]
+This extension is a fork of Codeforces Dark Mode by Ujjwal Kumar
 Licensed under MIT - See LICENSE file
 Changes: Added support for custom color themes
 ```
@@ -166,7 +166,7 @@ Changes: Added support for custom color themes
  **Good** - Derivative work with credits:
 ```markdown
 ## Credits
-Based on Codeforces Dark Mode by [Original Author]
+Based on Codeforces Dark Mode by Ujjwal Kumar
 Modified and distributed under MIT License
 
 ## License
