@@ -342,6 +342,58 @@ pre, code {
 .verdict-challenged {
     color: #ff6b6b !important;
 }
+
+/* Sidebox and attention boxes */
+.sidebox {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+    border-color: #556b82 !important;
+}
+
+/* Specific styling for attention boxes */
+.roundbox.highlight-blue.sidebox {
+    background-color: #2d2d2d !important;
+    border-color: #556b82 !important;
+    color: #ffffff !important;
+}
+
+.roundbox.highlight-blue.sidebox .caption {
+    background-color: #1a3a52 !important;
+    color: #ffffff !important;
+    border-color: #2d5a8c !important;
+}
+
+.roundbox.highlight-blue.sidebox > div {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+.caption {
+    background-color: #1a3a52 !important;
+    color: #ffffff !important;
+    border-color: #2d5a8c !important;
+}
+
+.caption.titled {
+    background-color: #1a3a52 !important;
+    color: #ffffff !important;
+}
+
+/* Ensure sidebox content inherits proper styling */
+.sidebox .caption {
+    background-color: #1a3a52 !important;
+    color: #ffffff !important;
+}
+
+.sidebox div {
+    color: #ffffff !important;
+    background-color: transparent !important;
+}
+
+.sidebox > div[style] {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
   `;
 
   const styleElement = document.createElement("style");
