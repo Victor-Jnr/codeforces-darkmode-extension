@@ -394,6 +394,57 @@ pre, code {
     background-color: transparent !important;
     color: #ffffff !important;
 }
+
+/* Datatable styling */
+.datatable {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+/* Override inline white background in datatable */
+.datatable > div[style*="background-color: white"] {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+/* Datatable content styling */
+.datatable div {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+/* Ensure datatable text content is visible */
+.datatable [style*="background-color"] {
+    background-color: #2d2d2d !important;
+}
+
+.datatable .caption, .datatable [class*="caption"] {
+    background-color: #1a3a52 !important;
+    color: #ffffff !important;
+}
+
+/* Problems table styling */
+.datatable .problems {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.datatable .problems tbody tr {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+}
+
+.datatable .problems td {
+    background-color: #2d2d2d !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}
+
+.datatable .problems th {
+    background-color: #1a3a52 !important;
+    color: #ffffff !important;
+    border-color: #444 !important;
+}
   `;
 
   const styleElement = document.createElement("style");
